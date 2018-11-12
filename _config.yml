@@ -1,0 +1,6 @@
+name: DJ Edmonson
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-sitemap
+url: http://dedmons.github.io
