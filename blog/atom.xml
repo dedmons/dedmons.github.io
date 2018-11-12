@@ -11,7 +11,7 @@ layout: feed
 	<id>{{ site.url }}/blog</id>
 	<author>
 		<name>DJ Edmonson</name>
-		<email>dj@fastmail.com</email>
+		<email>{{ site.email }}</email>
 	</author>
 
 	{% for post in site.posts %}
