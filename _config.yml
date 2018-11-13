@@ -2,6 +2,4 @@ name: DJ Edmonson
 email: test@example.com
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-plugins:
-  - jekyll-sitemap
 url: http://dedmons.github.io
