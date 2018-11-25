@@ -1,0 +1,13 @@
+ <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="{{ site.baseurl }}/" title="Home">{{ site.author.name }}</a>
+  </h3>
+  <nav>
+    <ul>
+      {% for item in site.data.navlist.pages %}
+        {%- assign pagename = item.title | downcase -%}
+        <li><a href="{{ item.url }}" alt="{{ item.title }}" class="{% if page.url contains item.url %}current{% endif %}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

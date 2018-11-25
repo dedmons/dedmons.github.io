@@ -1,5 +1,15 @@
-name: DJ Edmonson
-email: test@example.com
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-url: http://dedmons.github.io
+url:                 http://dedmonson.com
+baseurl:             ""
+
+# About/contact
+author:
+  name:              DJ Edmonson
+  email:             dj@the-edmonsons.com
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+permalink:           /blog/:year/:month/:day/:title:output_ext

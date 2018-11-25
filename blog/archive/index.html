@@ -1,0 +1,17 @@
+---
+layout: default
+title: Archive
+---
+
+<div class="content">
+  <div class="year">
+  {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+      {% if currentdate != date %}
+        <h2 id="y{{currentdate}}">{{ currentdate }}</h2>
+        {% assign date = currentdate %} 
+      {% endif %}
+      <h3>{{ post.date | date: "%b %d" }} - <a href="{{ post.url }}">{{ post.title }}</a></h3>
+  {% endfor %}
+  </div>
+</div>

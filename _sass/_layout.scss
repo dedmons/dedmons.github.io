@@ -1,0 +1,51 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+.container {
+  max-width: $container-width;
+  padding-bottom: $footer-height * 2;
+  margin-left:  auto;
+  margin-right: auto;
+  min-height: 100%;
+  position: relative;
+  
+  .sidebar {
+    position: absolute;
+    top: 4rem; 
+    bottom: 0; 
+    right: 0;
+    width: $sidebar-width;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  .content {
+    padding-right: $sidebar-width + 1rem;
+  }
+
+  @media (max-width: $large-breakpoint) {
+    .sidebar {
+      position: relative;
+      width: 100%;
+      top: 0;
+      margin-bottom: 1em;
+      border-top: solid;
+    }
+
+    .content {
+      padding-right: 0;
+    }
+  }
+}
+
+footer {
+  position: absolute;
+  height: $footer-height;
+  bottom: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}

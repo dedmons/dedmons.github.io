@@ -1,0 +1,32 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="content">
+<div class="posts">
+  {% for post in site.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</div>
+</div>
+
+<aside class="sidebar">
+  <section>
+    <h3>Hey</h3>
+    <p>Welcome to my blog, a collection of my ideas and ramblings.</p>
+  </section>
+  <section>
+    <h3><a href="/blog/archive/">Archives</a></h3>
+  </section>
+</aside>
