@@ -2,13 +2,14 @@
 //
 // Super small header above the content for site name and short description.
 
-.masthead {
+.header {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+  grid-area: "header";
 }
 
-.masthead-title {
+.header-title {
   margin-top: 0;
   margin-bottom: 0;
   color: $gray-4;
@@ -26,7 +27,7 @@
   }
 }
 
-.masthead {
+.header {
   nav {
     ul {
       margin: 0;
