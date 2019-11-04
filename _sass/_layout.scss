@@ -2,54 +2,60 @@
 //
 // Styles for managing the structural hierarchy of the site.
 
-.container {
-  max-width: $container-width;
-  margin-left:  auto;
-  margin-right: auto;
+.container {  
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+
+  padding: 2ch;
+  margin: auto;
+
   min-height: 100%;
+  max-width: $max-width;
 
   display: grid;
-  // position: relative;
+  grid-template-columns: 1fr;
   grid-template-areas: 
     "header"
-    "content"
+    "main"
     "footer";
 
-  main {
-    grid-area: "content";
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+  grid-gap: 1rem;
+}
 
-  .content {
-    display: inline;
-  }
+main {
+  grid-area: main;
+  width: 100%;
+}
 
-  .sidebar {
-    width: $sidebar-width;
-
-    a {
-      color: inherit;
-    }
-  }
+.blog {
+  display: grid;
+  grid-gap: 5ch;
+  grid-template-columns: $content-width $sidebar-width;
+  grid-template-areas:
+    "content sidebar";
 
   @media (max-width: $large-breakpoint) {
-    .sidebar {
-      position: relative;
-      width: 100%;
-      top: 0;
-      margin-bottom: 1em;
-      border-top: solid;
-    }
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "content"
+    "sidebar";
+  }
+}
 
-    .content {
-      padding-right: 0;
-    }
+.content {
+  grid-area: content;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  a {
+    color: inherit;
   }
 }
 
 footer {
-  grid-area: "footer";
+  grid-area: footer;
   height: $footer-height;
   bottom: 0;
   margin-bottom: 1rem;

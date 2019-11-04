@@ -13,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100vw;
 }
 
 html {
@@ -27,8 +26,6 @@ html {
 }
 
 body {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
   color: $body-color;
   background-color: $body-bg;
   -webkit-text-size-adjust: 100%;

@@ -3,22 +3,24 @@ layout: default
 title: Blog
 ---
 
+<div class="blog">
 <div class="content">
-<div class="posts">
-  {% for post in site.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <div class="posts">
+    {% for post in site.posts %}
+    <article class="post">
+      <h1 class="post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+      {{ post.content }}
+    </article>
+    <hr/>
+    {% endfor %}
+  </div>
 </div>
 
 <aside class="sidebar">
@@ -30,3 +32,4 @@ title: Blog
     <h3><a href="/blog/archive/">Archives</a></h3>
   </section>
 </aside>
+</div>

@@ -28,6 +28,11 @@ pre code {
   background-color: transparent;
 }
 
+figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // Pygments via Jekyll
 .highlight {
   padding: 1rem;
@@ -39,7 +44,7 @@ pre code {
 
   pre {
     margin-bottom: 0;
-    overflow-x: auto;
+    overflow-x: scroll;
   }
 
   .lineno {
