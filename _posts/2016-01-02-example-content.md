@@ -37,9 +37,9 @@ Clicking this number[^fn-sample_footnote]
 
 Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:
 
-<!-- {% highlight text %}
+{% highlight text %}
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
-{% endhighlight %} -->
+{% endhighlight %}
 
 You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.
 
@@ -51,7 +51,7 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Inline code is available with the `<code>` element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.
 
-<!-- {% highlight js %}
+{% highlight js %}
 // Example can be run directly in your JavaScript console
 
 // Create a function that takes two arguments and returns the sum of those arguments
@@ -60,7 +60,7 @@ var adder = new Function("a", "b", "return a + b");
 // Call the function
 adder(2, 6);
 // > 8
-{% endhighlight %} -->
+{% endhighlight %}
 
 You may also optionally show code snippets with line numbers. Add `linenos` to the Pygments tags.
 

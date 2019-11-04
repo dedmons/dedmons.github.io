@@ -13,7 +13,7 @@ code {
   font-size: 85%;
   color: $code-color;
   background-color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: .25rem;
 }
 
 pre {
@@ -31,25 +31,41 @@ pre code {
 figure {
   margin-left: auto;
   margin-right: auto;
+  overflow-x: scroll;
 }
 
 // Pygments via Jekyll
 .highlight {
-  padding: 1rem;
+  padding: .25rem;
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
   background-color: #f9f9f9;
   border-radius: .25rem;
+  border: 1px solid #e5e5e5;
 
   pre {
     margin-bottom: 0;
     overflow-x: scroll;
   }
 
+  table {
+    margin-bottom: 0;
+    border: unset;
+    border-collapse: unset;
+    .code {
+      border: unset;
+    }
+  }
+
+  .gutter {
+    border: unset;
+    border-right: 1px solid #e5e5e5;
+  }
+
   .lineno {
     display: inline-block; // Ensures the null space also isn't selectable
-    padding-right: .75rem;
+    padding-right: .25rem;
     padding-left: .25rem;
     color: #999;
     // Make sure numbers aren't selectable
