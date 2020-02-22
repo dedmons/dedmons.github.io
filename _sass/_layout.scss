@@ -31,7 +31,7 @@ main {
 .blog {
   display: grid;
   grid-gap: 5ch;
-  grid-template-columns: $content-width $sidebar-width;
+  grid-template-columns: minmax(0, $content-width) $sidebar-width;
   grid-template-areas:
     "content sidebar";
 

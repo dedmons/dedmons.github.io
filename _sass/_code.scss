@@ -19,6 +19,8 @@ code {
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
+  max-width: 100%;
+  overflow-x: scroll;
 }
 
 pre code {
@@ -46,7 +48,6 @@ figure {
 
   pre {
     margin-bottom: 0;
-    overflow-x: scroll;
   }
 
   table {
