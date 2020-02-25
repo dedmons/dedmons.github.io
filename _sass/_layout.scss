@@ -3,24 +3,25 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {  
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 
   padding: 2ch;
   margin: auto;
 
-  min-height: 100%;
+  min-height: 100vh;
   max-width: $max-width;
 
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: $header-height 1fr $footer-height;
   grid-template-areas: 
     "header"
     "main"
     "footer";
 
-  grid-gap: 1rem;
+  grid-gap: 1ch;
 }
 
 main {
@@ -56,9 +57,5 @@ main {
 
 footer {
   grid-area: footer;
-  height: $footer-height;
-  bottom: 0;
-  margin-bottom: 1rem;
-  width: 100%;
   text-align: center;
 }

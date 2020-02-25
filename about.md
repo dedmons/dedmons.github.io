@@ -9,6 +9,10 @@ About me...
 
 Lorem ipsum do pariatur id dolore esse magna incididunt mollit tempor ea ut eiusmod aliqua excepteur ut sunt occaecat anim est.
 
+<div class="message">
+  This is an example message.
+</div>
+
 Qui incididunt ea nulla laborum laboris amet dolore duis.
 
 ![3by left](http://placehold.it/400x200 "Medium example image")
