@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+permalink: about.html
 ---
 
 ![center](http://placehold.it/800x300 "Large example image")

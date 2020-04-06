@@ -1,4 +1,4 @@
-url:                 http://dedmonson.com
+url:                 https://dedmonson.com
 baseurl:             ""
 
 # About/contact
@@ -11,5 +11,8 @@ author:
 sass:
   sass_dir:          _sass
   style:            :compressed
+
+include:
+  ["_pages"]
 
 permalink:           /blog/:year/:month/:day/:title:output_ext

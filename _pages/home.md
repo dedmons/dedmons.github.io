@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: index.html
 ---
 
 ![hero](http://placehold.it/800x300 "Large example image")
