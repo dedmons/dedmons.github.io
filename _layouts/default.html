@@ -32,6 +32,6 @@
   </body>
   <script src="/analytics.js"></script>
   <noscript>
-    <img src="https://case.dedmonson.com/analytics/log?location={{ page.url }}" style="display: none;" />
+    <img src="https://case.dedmonson.com/analytics/log?location={{ page.url }}&status={% if page.url contains '404' %}404{% else %}200{% endif %}" style="display: none;" />
  </noscript>
 </html>
