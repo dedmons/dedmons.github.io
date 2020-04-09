@@ -1,6 +1,4 @@
 window.addEventListener('load', (event) => {
-  console.log('page is fully loaded');
-
   setTimeout(function() {
   	let data = {};
   	data.userAgent = navigator.userAgent;
@@ -14,5 +12,20 @@ window.addEventListener('load', (event) => {
   	data.pageLoad = timing.loadEventEnd - timing.responseEnd;
 
   	console.log('data', data);
-  }, 2000);
+
+    const url = "https://case.dedmonson.com/analytics/log";
+
+    if (window.navigator.sendBeacon) {
+      const beacon = window.navigator.sendBeacon(url, JSON.stringify(data));
+      if (beacon)
+        console.log('sent beacon');
+        return;
+    }
+
+    const request = new XMLHttpRequest();
+    request.open('POST', url, true);
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.send(JSON.stringify(data));
+    console.log('sent XMLHttpRequest');
+  }, 100);
 });
