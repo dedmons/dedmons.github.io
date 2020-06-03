@@ -1,7 +1,7 @@
 ---
+title: Country Bread
 categories: baking
 ---
-## Country Bread ##
 
 ### Ingredients: ###
 - 500g AP flour

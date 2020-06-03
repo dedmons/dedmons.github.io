@@ -1,7 +1,7 @@
 ---
+title: Steel Cut Oats
 categories: breakfast
 ---
-## Steel Cut Oats ##
 
 ### Ingredients: ###
 - Per serving

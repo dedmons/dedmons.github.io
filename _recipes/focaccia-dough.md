@@ -1,7 +1,7 @@
 ---
+title: Focaccia Dough
 categories: baking
 ---
-## Focaccia Dough ##
 
 ### Ingredients: ###
 - 675g AP flour

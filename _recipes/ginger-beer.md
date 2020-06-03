@@ -1,7 +1,7 @@
 ---
+title: Ginger Beer
 categories: drinks
 ---
-## Ginger Beer ##
 
 ### Ingredients: ###
 - 1 quart water

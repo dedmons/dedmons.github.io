@@ -1,5 +1,10 @@
 window.addEventListener('load', (event) => {
   setTimeout(function() {
+    if (document.location.hostname != "dedmonson.com") {
+      console.log('dont send analytics on non production site');
+      return;
+    }
+
   	let data = {};
   	data.userAgent = navigator.userAgent;
   	data.language = navigator.language;

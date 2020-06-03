@@ -1,7 +1,7 @@
 ---
+title: Sausage Gravy
 categories: breakfast
 ---
-## Sausage Gravy ##
 
 ### Ingredients: ###
 - 1 lbs breakfast sausage (pork, turkey, or whatever you want)

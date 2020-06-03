@@ -1,7 +1,7 @@
 ---
+title: Mug Cake
 categories: dessert
 ---
-## Mug Cake ##
 
 ### Ingredients: ###
 - 1/4 cup + 1 1/2 tsp flour

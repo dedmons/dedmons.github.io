@@ -1,7 +1,7 @@
 ---
+title: Mexican Cabbage Bowl
 categories: dinner
 ---
-## Mexican Cabbage Bowl ##
 
 ### Ingredients: ###
 - 1 pound ground meat (beef, turkey, etc)

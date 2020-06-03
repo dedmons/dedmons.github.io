@@ -1,7 +1,7 @@
 ---
+title: Citrus Aid
 categories: drinks
 ---
-## Citrus Aid ##
 
 ### Ingredients: ###
 - 9 1/2 cups water
@@ -12,7 +12,7 @@ categories: drinks
     - 4 oranges
     - 3 grapefruit
     - a bunch of limes
-    
+
 ### Method: ###
 1. Put water on to boil
 2. In heatproof comtainer add sugar, citric acid, and zest of citrus of choice
