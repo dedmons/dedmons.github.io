@@ -1,5 +1,5 @@
 ---
-categories: dinner, meat
+categories: dinner
 ---
 ## Mexican Cabbage Bowl ##
 
