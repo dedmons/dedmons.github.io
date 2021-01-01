@@ -9,6 +9,7 @@ permalink: index.html
 ------
 
 Testing Image layouts
+Welcome to my website, its a collection of a lot of random things that I want to put out there and make available to people.
 
 ------
 
