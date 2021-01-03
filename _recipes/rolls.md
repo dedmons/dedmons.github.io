@@ -4,7 +4,7 @@ categories: baking, holiday
 ---
 
 ### Ingredients: ###
-The Dough:
+#### The Dough: ####
 - 7 g yeast
 - 2 Tbs sugar
 - 1/2 cup sugar
