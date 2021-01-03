@@ -2,6 +2,9 @@
 title: Rolls
 categories: baking, holiday
 ---
+This is a family recipe from my wife and is part of most holiday breakfast in home.
+
+This recipe makes enough to fill 2 round 9 inch cake pans. I have split the recipe in half to make one pan of cinnamon rolls and one pan of dinner rolls from the same dough.
 
 ### Ingredients: ###
 #### The Dough: ####
@@ -12,12 +15,12 @@ categories: baking, holiday
 - 2 tsp salt
 - 6-8 cups AP flour
 
-Cinnamon Filling:
+#### Cinnamon Filling: ####
 - 1/3 cup sugar
 - 3 Tbs cinnamon
 - 4 Tbs butter (melted)
 
-Caramel Glaze:
+#### Caramel Glaze: ####
 - 12 Tbs butter (softened)
 - 1 1/2 cups brown sugar
 - 3 Tbs corn syrup
@@ -43,5 +46,3 @@ Start by beating all ingredients for glaze together until thoroughly mixed and s
 
 ### Notes: ###
 I have had the most success by not freezing the dough even though it can be useful to freeze before traveling. That means I will make the rolls after dinner the nigh before I intend to bake them.
-
-This recipe makes enough to fill 2 round 9 inch cake pans. I have split the recipe in half to make one pan of cinnamon rolls and one pan of dinner rolls from the same dough.
